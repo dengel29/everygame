@@ -17,6 +17,7 @@ class ScrapeForGames < Actor
   end
 
   private 
+  
   def capitalize(title)
     return title.split(/ |\_|\-/).map(&:capitalize).join(" ")
   end
