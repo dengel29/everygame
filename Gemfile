@@ -11,6 +11,8 @@ gem "pg", "~> 1.1.3"
 
 gem "dynomite"
 
+gem 'service_actor'
+
 # development and test groups are not bundled as part of the deployment
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
